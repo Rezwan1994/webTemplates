@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+a , a:hover{
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444;
+}
+h1,h2,h3,h4,h5,p {
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.fix:before,.fix:after {
+    content: "";
+    display: table;
+}
+.fix:after{
+    clear: both;
+}
+.header_area {
+    padding: 27px 0px;
+}
+.header {
+    
+}
+.menu {
+   margin-top: 5px; 
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #444;
+    padding: 12px 9px;
+    
+}
+.menu ul li a:hover{
+    background-color: #1BBC9B;
+    color: #fff;
+}
+.banner_area{
+    /*background: url(img/banner.jpg) no-repeat   scroll center center / cover ;*/
+    height: 453px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+.slider_area {
+    height: 100%;            
+}
+.banner_table{
+    display: table;
+    height: 100%;
+    left: 50px;
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    width: calc(100% - 100px);
+}
+.banner_cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.wellcome_text{
+    color: #fff;
+    padding: 0 100px;
+}
+.wellcome_text h1{
+    font-size: 55px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+} 
+.wellcome_text h1 span{
+    font-weight: 700;
+}
+wellcome_text p{
+    font-size: 18px;
+    font-weight: 100px;
+}
+.wellcome_text a{
+    display: inline-block;
+    padding: 12px 9px;
+    background-color: #1BBC9B;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bgcolor{
+    background-color: red;
+}
+.s-item {}
+.wellcome_text i{
+    display: block;
+    font-size: 50px;
+}
+/*owlcoursel css*/
+
+.owl-controls{
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -25px;
+    text-align: left;
+}
+.owl-nav div {
+    background-color: #64615C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-table;
+    text-align: center;
+    color: #fff;
+}
+.owl-nav div i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.owl-nav div.owl-next{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.protfolio_area {
+    text-align: center;
+}
+.section_title {
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.section_title h1{
+    margin-bottom: 20px;
+    
+}
+.section_title p{
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+
+.protfolio {
+    margin-bottom: 44px;
+}
+.protfolio ul{
+    display: inline;
+}
+.protfolio ul li{
+    background-color: #1bbc9b;
+    display: inline-block;
+    margin-bottom: 44px;
+    margin-left: 12px;
+    padding: 15px 20px;
+}
+.items .fix{
+    margin-left: -30px;
+}
+
+.s-item{
+    width: 196px;
+    height: 143px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+     
+}
+.image_hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: scale(0);
+    transition: all .5s ease 0s
+}
+.s-item:hover .image_hover{   
+   transform: scale(1)
+}
+.image_hover:before{
+    position: absolute;
+    background-color: #50B392; 
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    content: "";
+}
+.image_hover *{
+    position: relative;
+    z-index: 99;
+
+
+}
+.image_hover a{
+    width:35px;
+    height: 34px; 
+    display: inline-table;
+    position: relative;
+    margin-top: 15px;
+
+}
+.image_hover a:before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    content: "";
+    opacity: .61;
+    background-color: #444;
+    
+}
+.image_hover a i{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+.About_area {
+    background-color: #16A086;
+    padding: 60px 0px;
+}
+.member_list{
+  margin-left: -60px;
+}
+.member{
+    float: left;
+    margin-left: 60px;
+    width: 280px;
+    background-color: white;
+}
+.m_img{
+    margin-bottom: 20px;
+}
+.member h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.member p{
+    padding: 0px 5px;
+   font-size: 14px;
+    font-weight: 400;
+}
+.member h3 span{
+    display: block;
+    font-size: 14px;
+}
+.member img{
+    min-width: 100%;
+}
+.section_title h1 span{
+    color: #fff;
+}
+.section_title p span{
+    color: #fff;
+}
+.contuct_us_area{
+    background-color: #ECF0F1;
+    padding: 60px;
+}
+.contuct{
+    
+}
+.contuct_form,.contuct_adress{
+    width: 50%;
+    
+}
+.contuct_form{
+    text-align: right;
+}
+.contuct_form input[type="text"],.contuct_form input[type="email"]{
+    padding: 10px;
+    width: 202px;
+    height: 39px;
+    border: 2px solid #BEC3C7;
+    
+}
+.contuct_form input[type="email"]{
+    margin-left: 23px;
+}
+.contuct_form input[type="submit"]{
+    float: right;
+    height: 37px;
+    margin-top: 24px;
+    width: 110px;
+    background-color: #1BBC9B;
+}
+.contuct_form input[type="text"]{}
+.contuct_form textarea{
+    height: 148px;
+    margin-top: 25px;
+    width: 455px;
+    padding: 10px;
+    border: 2px solid #BEC3C7;
+}
+.contuct_address{
+    float: left;
+    margin-left: 30px;
+}
+.contuct_address p .address{
+    position: relative;
+}
+.contuct_address p.address:before{
+
+    content: "\f041";
+    font-family: "FontAwesome";
+    color: #000;
+}
+.footer_area{
+    background-color: #2D3E50;
+    padding: 45px;
+    
+}
+.footer_left{
+    float: left;
+}
+.footer p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer a{
+    float: right;color: white;
+   
+    display: block;
+    padding: 20px;
+    background-color: aqua;
+}
+.footer a i{
+    font-size: 20px;
+}
+
+
+
+

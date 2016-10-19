@@ -1,0 +1,413 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+  
+}
+html, body {
+    height: 100%;
+}
+.top_area,.work_area,.comunicationa_area{
+    background-color:    background: #897583; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #897583 0%, #317386 53%, #897583 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#897583), color-stop(53%,#317386), color-stop(100%,#897583)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #897583 0%,#317386 53%,#897583 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #897583 0%,#317386 53%,#897583 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #897583 0%,#317386 53%,#897583 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #897583 0%,#317386 53%,#897583 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#897583', endColorstr='#897583',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+    position: relative;
+}
+.top_area{
+    height: 100%;
+}
+
+.navigation_area {
+    height: 100%;
+    margin-top: 65px;
+    position: absolute;
+    width: 100%;
+}
+
+.welcome_table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.table_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.welcome_text {
+    text-align: center;
+}
+.welcome_text h1{
+    font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 25px 0px;
+}
+.welcome_text h1:before, .welcome_text h1:after{
+  
+    position: absolute;
+    left: 0px;
+    height: 2px;
+    background-color: #D1D9DD;
+    width: 100%;
+    content: "";
+}
+.welcome_text h1:before{
+    
+    top: 0px;
+}
+.welcome_text h1:after{
+    bottom: 0px;
+    
+}
+.welcome_text p{
+
+    color: #D1D9DD;
+}
+.menu-icon {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-top: 9px;
+}
+.menu-icon a{
+    padding: 15px 10px;
+}
+.menu-icon a i{
+    color: #fff;
+}
+
+
+.image {
+    margin-top: 115px;
+}
+
+.brief {
+    margin-top: 170px;
+}
+.brief a{
+    margin-top: 95px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 15px 70px;
+    border: 1px solid red;
+}
+.brief h4{
+    margin-bottom: 45px;
+    display: block;
+    font-weight: bold;
+    opacity: .7;
+}
+.brief p{
+   opacity: .7;
+}
+.brief span {
+    margin-top: 45px;
+    display: block;
+}
+.process_area {
+   
+  
+   background-color: #F6F6F6;
+}
+.wrapper {
+    padding: 80px 0px;
+}
+.process_header{}
+.process h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.process p {
+    font-size: 16px;
+    text-align: center;
+    opacity: .7;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.fa.fa-television {
+    display: block;
+    font-size: 40px;
+    margin-top: 80px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+.s-items1 > p,.s-items2 > p,.s-items3 > p,.s-items4 > p {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+.s-items1,.s-items2,.s-items3,.s-items4 {
+    height: 268px;
+}
+.s-items1 {
+    background-color: #10C6FC;
+}
+.s-items2 {
+    background-color: #835AEB;
+}
+ .s-items3 {
+    background-color: #002453;
+} 
+.s-items4 {
+    background-color: #FF2B4A;
+}
+.work-edu{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c637b+0,4f637c+65 */
+background: #6c637b; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6c637b 0%, #4f637c 65%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#6c637b), color-stop(65%,#4f637c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #6c637b 0%,#4f637c 65%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #6c637b 0%,#4f637c 65%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #6c637b 0%,#4f637c 65%); /* IE10+ */
+background: linear-gradient(45deg,  #6c637b 0%,#4f637c 65%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c637b', endColorstr='#4f637c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    padding: 30px;
+    color: #fff;
+}
+.work_area{
+    padding: 120px 0px;
+}
+.work-edu h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.s-work {
+    margin-bottom: 30px; 
+    border-bottom: 1px solid #7A8498;
+    padding-bottom: 20px;
+}
+.s-work h4 {
+    font-weight: 700;
+    opacity: .90;
+}
+.s-work h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: .70;
+    font-size: 16px;
+}
+.s-work p {
+    opacity: .50;
+}
+
+.work-edu li:last-child.s-work {
+    margin-bottom: 0px; 
+    border-bottom: 0px solid #7A8498;
+    padding-bottom: 0px;
+}
+.s-protfolio {
+   margin-bottom: 30px;
+    position: relative;
+    display: block;
+    
+}
+.s-protfolio img{
+    width: 100%;
+    height: 100%;
+}
+.hover {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(124,68,68,.7);
+    opacity: .7;
+    transition:  all .2s ease 0s;
+    transform: scale(0);
+}
+.s-protfolio:hover .hover{
+    transform: scale(1)
+}
+
+.hover_table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hover_details{
+    display: table-cell;
+    vertical-align: middle;
+}
+.hover_details a{
+    display: inline-table;
+    width:50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.hover_details a i{
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+.tastimonial_area{
+    background-color: #64cbc0;
+    padding: 60px 0px;
+}
+.compliment{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+/*owl css*/
+
+.owl-controls {
+    height: 100%;
+    left:0px;
+    position: absolute;
+    width: 100%;
+    display: table;
+}
+
+.owl-nav div.owl-next{
+   
+}
+.owl-nav div.owl-prev{
+  
+}
+
+
+.tasti_slider{
+    display: block;
+    padding: 85px 0;
+    position: relative;
+}
+.tasti_slider:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(img/comma.png) no-repeat scroll 0 0;
+    content: "";
+    width: 58px;
+    height: 47px;
+}
+
+.tasti_slider > p {
+    margin-bottom: 60px;
+}
+.author h3{
+    font-size: 18px;
+}
+.author h3 span{
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.author > img {
+    padding-bottom: 25px;
+    width: 100%;
+    height: 100%
+}
+
+.slider{
+    
+}
+.author_img {
+    display: block;
+    width: 170px;
+}
+
+.comunicationa_area{
+   padding: 120px 0px;
+}
+.msg_add{
+    background-color: #68657c;
+
+
+    padding: 30px;
+    color: #fff;
+}
+.comunicationa_area h3,.comunicationa_area p,.comunicationa_area a{
+    color: white;
+}
+.comunication_wrapper{
+    background-color: #6a647c;
+}
+input{
+   
+     background-color: #67657c;
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+
+textarea {
+    background-color: #62657d;
+    height: 102px;
+    margin-top: 15px;
+    width: 100%;
+}
+.contact_form input[type="submit"]{
+
+    height: 37px;
+  
+    width: 110px;
+    background-color: #1BBC9B;
+}
+
+.footer_area{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #222222;
+    
+}
+.footer_area p{
+    color: white;
+    display: block;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+ul {
+    display: inline;
+    
+}
+li {
+    display: inline-block;
+   
+}
+
+.fonts ul li a i{
+    font-size: 15px;
+    border-right: 1px solid white;
+    padding: 0px 15px;
+}
+.fonts ul li a i:hover{
+    color: red;
+}
+
+.fonts ul li:last-child a i{
+    border-right: 0px;
+}
+  /*<input type="submit" value="SUBMIT">*/
+
